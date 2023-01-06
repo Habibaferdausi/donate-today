@@ -6,32 +6,36 @@
     url("images/donation13.jpg");
   background-size: cover;
   height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
 }
 .banner h1 {
   font-family: "Open Sans", sans-serif;
   color: white;
-  margin: 0 538px;
-  padding-top: 300px;
-  font-size: 90px;
+  margin: 0 300px;
+  padding-top: 150px;
+  font-size: 70px;
   text-align: center;
   align-items: center;
 }
 .banner p {
   color: white;
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .btn {
-  height: 64px;
-  margin: 0 900px;
+  text-align: center;
+  margin: 0 580px;
   border-radius: 5px;
   background-color: #ff5959;
   margin-top: 50px;
   color: white;
   font-size: 20px;
   border: 0;
-  padding: 18px 35px;
+  padding: 20px;
 }
 
 .btn2 {
@@ -62,7 +66,7 @@
 .donation {
   font-family: "Open Sans", sans-serif;
   margin-top: 170px;
-  margin: 0 538px;
+  margin: 0 300px;
   text-align: center;
 }
 
@@ -115,11 +119,11 @@
 }
 .container {
   display: flex;
+  justify-content: space-around;
+  margin: 0 150px;
   align-items: center;
   text-align: center;
   gap: 30px;
-  margin: 0 350px;
-  padding: 20px;
 }
 .plan-title {
   font-family: "Open Sans", sans-serif;
@@ -160,33 +164,37 @@
 .lives {
   font-family: "Open Sans", sans-serif;
   margin-top: 170px;
-  margin-left: 150px;
-  margin-right: 150px;
-  padding: 20px;
+  margin-left: 100px;
+  padding: 40px;
   display: flex;
 }
 .img image {
   width: 456px;
   height: 477px;
-  left: 732px;
   padding: 20px;
 }
+.des h1 {
+  color: #121212;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  font-size: 55px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
 .des p {
   font-size: 20px;
-  padding-right: 20px;
+  padding-right: 40px;
+  padding-top: 20px;
   color: #707070;
   text-align: left;
 }
 .servive {
   margin-top: 170px;
   margin-left: 150px;
-  margin-right: 200px;
+  margin-right: 150px;
   padding: 20px;
   display: flex;
-}
-.img1 image {
-  margin-left: 156px;
-  width: 500px;
 }
 .des1 {
   font-size: 20px;
@@ -200,29 +208,34 @@
 .des1 h1 {
   color: #121212;
   font-family: "Open Sans", sans-serif;
-  text-align: center;
+  text-align: left;
   font-size: 55px;
+  padding-right: 10px;
+  padding-bottom: 20px;
 }
 .update {
   margin-top: 170px;
-  margin: 0 538px;
-  padding-top: 170px;
+  padding: 20px;
   text-align: center;
 }
 .update p {
   color: #707070;
   font-size: 20px;
+  padding: 0 100px;
   text-align: center;
 }
 .mail {
   margin-top: 100px;
-  padding: 70px;
+  margin-right: 150px;
+  margin-left: 150px;
   margin-bottom: 150px;
+  padding: 60px;
   background-color: #f3f2cd;
+  text-align: center;
 }
 
 .mail input {
-  padding: 20px;
+  padding: 15px;
   background-color: #c7c6c6;
   font-size: 18px;
   border: 0;
@@ -230,7 +243,7 @@
 .mail .btn3 {
   color: white;
   background-color: #ff5959;
-  padding: 20px;
+  padding: 15px;
   padding-left: 30px;
   padding-right: 30px;
 }
